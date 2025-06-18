@@ -14,7 +14,7 @@ export default function Home() {
         
       <Second/>
           <Third/>
-          <Counter2/>
+          {/* <Counter2/> */}
 
       </div>
     </div>
