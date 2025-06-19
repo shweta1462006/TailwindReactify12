@@ -2,14 +2,25 @@ import React from 'react'
 
 export default function Third() {
   return (
-    <div>
-      <div class="bg-white">
-  <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
-    <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+    
+    <div>        
 
+      <div class="bg-white">
+  <div class="m-4">
+
+    <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
+                {/* <div className='h-32  w-100 relative flex items-center justify-around list-none hover:bg-gradient-to-r from-purple-400 via-pink-500 to-red-500   bg-gray-100'>
+                <li  class="hover:bg-pink-500 hover:text-white px-4 py-2 cursor-pointer"><a>Women</a></li>
+                <li  class="hover:bg-pink-500 hover:text-white px-4 py-2 cursor-pointer"><a>Men</a></li>
+                <li  class="hover:bg-pink-500 hover:text-white px-4 py-2 cursor-pointer"><a>Girl</a></li>
+                <li  class="hover:bg-pink-500 hover:text-white px-4 py-2 cursor-pointer"><a>Boy</a></li>
+                <li  class="hover:bg-pink-500 hover:text-white px-4 py-2 cursor-pointer"><a>Footwear</a></li></div> */}
+ 
     <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 ">
+      
+      
       <div class="group relative ">
-        
+
         <img  src="https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dw62083bbf/images/hires/SS22/S25R118TP49_ORGWHT_1.jpg?sw=400&sh=600&sm=fit&strip=false" alt="Front of men's Basic Tee in black." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-90"/>
         <div class="mt-4 flex justify-between ">
           <div>
@@ -24,6 +35,7 @@ export default function Third() {
           <p class="text-sm font-medium text-gray-900">$35</p>
         </div>
       </div>
+      
       <div class="group relative">
         <img src="https://www.andindia.com/dw/image/v2/BGCX_PRD/on/demandware.static/-/Sites-masterCatalog_ANDIndia/default/dwbe16d731/images/hires/SS22/S25V110TDB_PINK_3.jpg?sw=400&sh=600&sm=fit&strip=false" alt="Front of men's Basic Tee in white." class="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-90"/>
         <div class="mt-4 flex justify-between">
