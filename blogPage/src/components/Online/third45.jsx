@@ -1,6 +1,6 @@
 const ClothsData ={
   Datacategories:{
-  dresses: [
+  dreses: [
     {
         "id":1,
       "title": "     Women shop",
@@ -113,7 +113,7 @@ const ClothsData ={
 
 
   ],
-   men:[
+   Kids:[
         {
         "id":17,
       "title": "     Women shop",
@@ -223,7 +223,7 @@ const ClothsData ={
       "price":165
     }
   ],
-  kids:[
+  Men:[
         {
         "id":33,
       "title": "     Women shop",
