@@ -9,7 +9,7 @@ function Nav() {
   return (
     <div>
        <div className='  mt-10 h-20  w-100 relative flex items-center justify-around list-none bg-gradient-to-r from-purple-400 via-pink-500 to-red-500   bg-gray-100'>
-        <p className='text-white' >Our Collections</p>
+        <p className='text-white text-[50px]' >Our Collections</p>
         </div>
     </div>
   )

@@ -56,6 +56,11 @@ export default function Header() {
               <BellIcon aria-hidden="true" className="size-6" />
             </button>
 
+            <div class="form-check form-switch ml-10 ">
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+              <label class="form-check-label text-white" for="flexSwitchCheckChecked">Dark Mode</label>
+            </div>
+
             {/* Profile dropdown */}
             <Menu as="div" className="relative ml-3">
               <div>
